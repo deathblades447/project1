@@ -3,16 +3,16 @@
 //using namespace std;
 //
 //
-//void change(int number) {
+//void change(int* number) {
 //	
-//	number *= 10;
+//	*number = *number * 10;
 //}
 //
 //int main() {
 //	int x = 100;
 //
 //	cout << "before x =" << x << endl;
-//	change(x);
+//	change(&x);
 //	cout << "after x =" << x << endl;
 //
 //
